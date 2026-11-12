@@ -48,7 +48,7 @@ python3 selftest.py --deep
 ./build_app.sh
 ```
 
-或直接下载 Releases 中的 `IPTV直播源测试.app`（内置 ffmpeg，无需 Python 环境）。
+或直接到 [Releases 页面](https://github.com/mtvtopcom/IPTVTest/releases/latest) 下载 `IPTVTest-macOS-*.zip`，解压得到 `IPTV直播源测试.app`（内置 ffmpeg，无需 Python 环境）。
 
 ## 更新日志
 
@@ -57,6 +57,7 @@ python3 selftest.py --deep
 - **改名**：「运行」页更名为「单次运行」
 - **新增**：单次运行页新增「不可用分析」模块——把每条检测失败说明按大分类（HTTP 错误、连接或读取超时、连接失败 / 被断开、格式 / 内容无效、规则过滤、深度校验失败、检测异常等）实时统计条数并按数量降序展示，可一键清零
 - **新增**：创建 README，项目开源至 GitHub，后续每次修改都会在此记录
+- **发布**：首个 GitHub Release `v1.9`（macOS `.app` 打包产物 + 界面预览图 + SHA256 校验）
 
 ### 2026-11-12（v1.8）
 - 所有数据源管理：重测后的成功/失败结果会计入历史次数（同一条数据按 URL 归并只存一条）
