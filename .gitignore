@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# 运行数据与用户配置（应用首次启动会自动生成默认值）
+config/
+output/
+logs/
+
+# 大体积二进制与打包产物
+bin/
+dist/
